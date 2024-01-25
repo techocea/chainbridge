@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input[type="text"],
+input[type="email"] {
+  @apply border-none outline-blue p-3 rounded-full;
+}
