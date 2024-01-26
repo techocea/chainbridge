@@ -7,7 +7,13 @@ function Header() {
     <header className="fixed w-full border-b  border-slate-400 bg-white z-10 flex items-center justify-between">
       <div>
         <Link href="/">
-          <Image src="/logoColor.png" width={150} height={150} alt="logo" />
+          <Image
+            src="/logoColor.png"
+            width={150}
+            height={150}
+            alt="logo"
+            className="max-md:w-[100px]"
+          />
         </Link>
       </div>
       <nav className="flex items-center w-full justify-evenly font-bold max-md:hidden">

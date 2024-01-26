@@ -4,14 +4,14 @@ function Reasons() {
   return (
     <div className="bg-purple text-white p-8 flex flex-col gap-6">
       <div>
-        <h1 className="font-bold text-6xl w-3/4">
+        <h1 className="font-bold text-6xl max-md:text-4xl max-md:leading-snug w-3/4 max-md:w-full">
           REASONS TO STUDY IN SWEDEN & HUNGARY
         </h1>
       </div>
       <div className="flex flex-col gap-5">
         <h1 className="font-bold text-3xl">SWEDEN</h1>
         <hr />
-        <div className="flex items-start justify-evenly">
+        <div className="flex flex-wrap items-start justify-evenly max-md:gap-5">
           <div className="flex flex-col text-center  gap-2">
             <h1 className="font-bold text-3xl">3rd</h1>
             <p className="w-[220px]">
@@ -39,7 +39,7 @@ function Reasons() {
       <div className="flex flex-col gap-5">
         <h1 className="font-bold text-3xl">HUNGARY</h1>
         <hr />
-        <div className="flex items-center justify-evenly">
+        <div className="flex flex-wrap items-start justify-evenly max-md:gap-5">
           <div className="flex flex-col text-center  gap-2">
             <h1 className="font-bold text-3xl">No.1</h1>
             <p>Quality of life*</p>

@@ -2,8 +2,8 @@ import React from "react";
 
 function StudentSay() {
   return (
-    <div className="flex flex-[2,1,2] h-[290px] shadow-2xl shadow-slate-400 m-8">
-      <div className="bg-primary flex flex-col justify-between  p-4 text-white">
+    <div className="flex max-md:flex-col flex-[2,1,2] h-[290px] max-md:h-auto shadow-2xl shadow-slate-400 m-8 max-md:m-auto">
+      <div className="bg-primary flex flex-col justify-between p-4 text-white">
         <p>
           I would highly recommend Emergence Education if you ever wanted to
           study in Australia. I've planned to go to Australia to do nursing,

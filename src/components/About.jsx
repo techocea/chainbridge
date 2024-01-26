@@ -3,7 +3,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="m-3 flex bg-secondary ">
+    <div className="flex max-md:flex-col m-3 max-md:m-0 bg-secondary ">
       <div className="flex-1">
         <Image
           src="/lecturer.jpg"
@@ -15,7 +15,7 @@ function About() {
           }}
         />
       </div>
-      <div className="flex flex-1 flex-col justify-between p-8 h-auto bg-secondary text-white ">
+      <div className="flex flex-1 flex-col justify-between gap-5 p-8 h-auto bg-secondary text-white ">
         <h1 className="font-bold text-[20px] max-md:lg text-lg:text-[24px]">
           We are one of the fastest growing student recruitment centers in Sri
           Lanka that specializes in placing students to leading universities in
@@ -29,7 +29,7 @@ function About() {
           the best university/institute that cater to your requirements
         </p>
         <div>
-          <button className="bg-gradient-to-r from-pink-600 to-primary text-white font-semibold text-sm rounded-full p-2">
+          <button className="bg-gradient-to-r from-pink-600 to-primary text-white font-semibold text-sm rounded-full p-2 max-md:px-4 max-md:text-lg">
             Read More
           </button>
         </div>

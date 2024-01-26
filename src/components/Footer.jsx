@@ -4,9 +4,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-primary p-8 text-white flex  justify-between">
+    <div className="bg-primary p-8 text-white flex max-md:flex-col max-md:items-center justify-between max-md:gap-10">
       <div>
-        <Image src="/logo.png" width={150} height={150} alt="footerLogo" />
+        <Image src="/logoNew.png" width={150} height={150} alt="footerLogo" />
       </div>
       <div className="flex flex-col gap-4 text-center">
         <h1 className="font-bold text-[22px] uppercase">Quick links</h1>
@@ -16,7 +16,7 @@ function Footer() {
         <Link href="/news">News</Link>
         <Link href="/testimonials">Testimonials</Link>
       </div>
-      <div className="text-right flex flex-col gap-2">
+      <div className="text-right  max-md:text-center flex flex-col gap-2">
         <h1 className="font-bold text-[22px] uppercase">Contact us</h1>
         <p>
           <span className="font-medium">Colombo</span>
